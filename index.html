@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>tinyOrb</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="theme-color" content="#c67124" />
+	<link rel="shortcut icon" href="favicon.png">   
+	<!-- external fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<!-- drop down JS -->
+	<link href="css/nice-select.css" rel="stylesheet">
+	<!-- Custom CSS start -->
+	<link href="css/custom-css.css" rel="stylesheet">
+	<!-- Jquery Liabrary Start -->
+	<script src="js/jquery-3.3.1.min.js"></script>	
+	<!-- Custom JS start -->
+	<script src="js/custom-js.js"></script>
+
+</head>
+<body>
+<div class='tinyorb-tree-fixed'></div>
+<!-- header start -->
+<div class="tinyorb-header">
+	<a class='tinyorb-navbar-brand' href='.' title='tinyOrb'><img src='images/logo.png' alt='Logo'></a>
+	<div class='tinyorb-user'>
+		<img src='images/login.png' alt='User'>
+		<select class='tinyorb-show-name'>
+		  <option data-display="Harshad">Harshad</option>
+		  <option value="1">Test</option>
+		</select>
+	</div>
+</div>
+<!-- header end -->
+
+<!-- menu start -->
+<div class="tinyorb-menu">
+	<ul>
+		<li><a href=''>Save</a></li>
+		<li><a href=''>Push</a></li>
+		<li><a href=''>Build</a></li>
+		<li><a href=''>Deploy</a></li>
+	</ul>
+	<select class='tinyorb-language'>
+	  <option data-display="English">English</option>
+	  <option value="1">French</option>
+	</select>
+</div>
+<!-- menu end -->
+
+<!-- inside start -->
+<div class="tinyorb-inside">
+	<div class='tinyorb-inside-left'>
+		<div class='tinyorb-tree'>
+			<iframe src="WebContent/sample.html" frameBorder='0' height='' id='directory' ></iframe>
+		</div>
+	</div>
+	<div class='tinyorb-inside-right'>
+		<div class='tinyorb-editor'>
+			<textarea name='content' placeholder='Enter your content'></textarea>
+		</div>
+	</div>
+</div>
+<!-- inside end -->
+
+<!-- footer start -->
+<div class="tinyorb-footer">All right reserve under <a href='http://www.tinyorb.org/' target='_blank'>tinyorb</a> license</div>
+<!-- footer end -->
+<script src="js/jquery.nice-select.min.js"></script>	
+</body>
+<!-- Other JS Start -->	
+</html>
